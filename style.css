@@ -1,0 +1,176 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 14vw 2vw 8vw 2vw 10vw 2vw 
+  10vw 2vw 8vw 2vw 2vw 22vw 15vw;
+  grid-template-rows: 8vh 7vh 5vh 15vh 20vh 10vh 5vh 5vh 30vh 5vh auto;
+  background-color: rgb(33, 33, 33);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#nav1 {
+background-color: rgb(33, 33, 33);
+grid-column: 1 / 14;
+grid-row: 1 / 2;
+border-bottom-style: solid;
+border-color: darkgray;
+border-width: 1px;
+flex-direction: row;
+justify-content: space-evenly;
+}
+
+#Logo {
+background-image: url(image/Schermafbeelding\ 2026-09-23\ 094322.png);
+grid-column: 1 / 2;
+grid-row: 1 / 2;
+background-size: 38%;
+background-repeat: no-repeat;
+background-position: center;
+border-bottom-style: solid;
+border-color: darkgray;
+border-width: 1px;
+
+}
+
+#nav2 {
+background-color: rgb(33, 33, 33);
+grid-column: 1 / 14;
+grid-row: 2 / 3;
+border-bottom-style: solid;
+border-color: darkgray;
+border-width: 1px;
+}
+
+#Voorpagina {
+grid-column: 2 / 6;
+grid-row: 2 / 3;
+justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+border-bottom-style: solid;
+border-color: darkgray;
+border-width: 1px;
+}
+
+#Options {
+  grid-column: 5 / 13;
+  grid-row: 2 / 3;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+#zoekenetc {
+background-image: url(image/zoekenetc..png);
+grid-column: 10 / 14;
+grid-row: 1 / 2;
+background-position: center;
+justify-content: center;
+background-size: contain;
+background-repeat: no-repeat;
+}
+
+#Tech {
+  grid-column: 12 / 13;
+  grid-row: 2 / 3;
+  background-image: url(image/Tech.png);
+  background-repeat: no-repeat;
+  justify-content: center;
+  background-position: right;
+  background-size: 20%;
+}
+
+#filler1 {
+  background-color: rgb(33, 33, 33);
+  grid-column: 1 / 14;
+  grid-row: 3 / 4;
+}
+
+#MainNews {
+  background-color: blue;
+  background-image: url(image/Htmlscreen.png);
+  grid-column: 2 / 11;
+  grid-row: 4 / 8;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border-radius: 2%;
+}
+
+#nieuwssportevents {
+  grid-column: 2 / 6;
+  grid-row: 1 / 2;
+  font-weight: 400px;
+  font-size: 80%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+#CreatorSMP {
+  background-image: url(image/CreatorSmpCMD.jpg);
+  grid-column: 2 / 6;
+  grid-row: 9 / 10;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border-radius: 2%;
+}
+
+#NStreinen {
+  background-image: url(image/Trein.webp);
+  grid-column: 7 / 11;
+  grid-row: 9 / 10;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  border-radius: 2%;
+}
+
+#Ad {
+  grid-column: 12 / 13;
+  grid-row: 4 / 6;
+  background-image: url(image/NosAd.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+#overzichtelijknieuws {
+  background-image: url(image/overzichtlijknieuws.png);
+  grid-column: 12 / 13;
+  grid-row: 6 / 10;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
